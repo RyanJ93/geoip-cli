@@ -2,7 +2,7 @@
 
 A simple command line utility to get the geolocation of an IP address written in the Crystal programming language.
 
-![Screenshot](./assets/screnshot.png)
+![Screenshot](./assets/screenshot.png)
 
 ### Prerequisites
 
