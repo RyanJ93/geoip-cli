@@ -1,0 +1,2 @@
+class IPFetchException < Exception
+end

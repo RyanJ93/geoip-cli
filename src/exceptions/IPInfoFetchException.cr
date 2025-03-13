@@ -1,0 +1,2 @@
+class IPInfoFetchException < Exception
+end

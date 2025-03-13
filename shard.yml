@@ -1,0 +1,13 @@
+name: geoip-cli
+version: 0.1.0
+
+authors:
+  - Enrico <hey@enricosola.dev>
+
+targets:
+  geoip-cli:
+    main: src/geoip-cli.cr
+
+crystal: '>= 1.15'
+
+license: MIT
