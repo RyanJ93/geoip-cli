@@ -16,9 +16,20 @@ crystal run src/geoip-cli.cr -- [arguments]
 
 ### Compiling
 
+You can compile the program using directly the Crystal compiler, like this:
+
 ````bash
-crystal build -O s -o bin/geoip-cli src/geoip-cli.cr
+crystal build --release --no-debug -o ./bin/geoip-cli ./src/geoip-cli.cr
 ````
+
+Alternatively, you can compile the program using make:
+
+````bash
+make
+# If you want to make the command available system-wide, you can then run:
+make install
+````
+
 Compiled binary will be available in the bin directory.
 
 ### Usage
